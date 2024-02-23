@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html> <head> <style>
+    .flex-container {
+      display: flex;  flex-direction:row;
+      background-color: red;
+  }
+
+.flex-container > div {  /*div children of the flex container*/
+  background-color: #f1f1f1; 
+  margin: 10px;  padding: 20px;  font-size: 30px;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) { 
+	 .flex-container{
+		 flex-direction:column;
+		 background-color: green;
+	  }
+	}
+
+    p {
+        color:blueviolet;
+        font-size: 20px;
+    }
+</style>
+<title>Assignment 7</title>
+</head>
+
+
+
+<body>
+    <h1>Find the coins by Shelby</h1>
+    <p>Click on the locations to find coins, beware the monster</p>
+
+    <p id="locations">Number of locations checked is zero</p>
+
+    <p id="score">Score is zero</p>
+
+    <p>Click for help</p>
+
+    <p id="help">Help report</p>
+
+	
+	</body>
+	</html>	
