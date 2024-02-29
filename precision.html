@@ -15,7 +15,7 @@
 
   <button type="button"
   class="btn btn-primary"
-  onclick="buttonPress2()" id="start">
+  onclick="startTime()" id="start">
   Start Timer</button>
 
   <button type="button"
@@ -47,6 +47,21 @@
     stop=document.getElementById("time")
     stopTime=Date.now()
     stop.innerHTML=("Your time is "+stopTime)
+  }
+
+  function startTime(){
+    i=0
+    count= document.getElementById("count")
+    while(i<6){
+      setTimeout()
+      printCount(function(){
+      document.getElementById('count')
+    }, count.innerHTML=(i))
+      i+=1
+    }
+    setTimeout()
+    
+
   }
   </script>
 
