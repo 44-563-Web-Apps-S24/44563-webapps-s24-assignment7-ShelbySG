@@ -4,5 +4,7 @@ An assignment on java script modifying the DOM and using anonymous callback func
 
 Hosted at:
  https://44-563-web-apps-s24.github.io/44563-webapps-s24-assignment7-ShelbySG/money.html
+ 
  https://44-563-web-apps-s24.github.io/44563-webapps-s24-assignment7-ShelbySG/precision.html
+ 
  https://44-563-web-apps-s24.github.io/44563-webapps-s24-assignment7-ShelbySG/divlist.html
