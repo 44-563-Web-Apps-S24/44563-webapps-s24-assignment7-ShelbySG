@@ -53,10 +53,10 @@
     i=0
     count= document.getElementById("count")
     while(i<6){
-      setTimeout()
-      printCount(function(){
-      document.getElementById('count')
-    }, count.innerHTML=(i))
+      setTimeout(()=>{
+      document.getElementById('count').style.color = "red"
+    }, ((4-i)*1000))
+      count.innerHTML=(i)
       i+=1
     }
     setTimeout()
